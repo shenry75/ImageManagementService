@@ -1,0 +1,9 @@
+Burkhart.ImageManagement.Core/bin/
+Burkhart.ImageManagement.Core/obj/Burkhart.BlobStorageService.Core.csproj.nuget.dgspec.json
+Burkhart.ImageManagement.Core/obj/
+Burkhart.ImageManagement.UnitTests/bin/
+Burkhart.ImageManagement.UnitTests/obj/
+ImageManagement/bin/
+ImageManagement/obj/
+.vs/
+packages/

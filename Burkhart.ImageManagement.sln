@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Burkhart.ImageManagement.Api", "ImageManagement\Burkhart.ImageManagement.Api.csproj", "{8A2C4E3F-16AB-4B8F-B9AC-47943D4A2544}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B1F8552D-782A-4E49-ADD2-9AC0DAACDB27} = {B1F8552D-782A-4E49-ADD2-9AC0DAACDB27}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Burkhart.ImageManagement.Core", "Burkhart.ImageManagement.Core\Burkhart.ImageManagement.Core.csproj", "{B1F8552D-782A-4E49-ADD2-9AC0DAACDB27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Burkhart.ImageManagement.UnitTests", "Burkhart.ImageManagement.UnitTests\Burkhart.ImageManagement.UnitTests.csproj", "{7BDF3C45-608F-468A-B053-93ED50E4504D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A2C4E3F-16AB-4B8F-B9AC-47943D4A2544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2C4E3F-16AB-4B8F-B9AC-47943D4A2544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2C4E3F-16AB-4B8F-B9AC-47943D4A2544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2C4E3F-16AB-4B8F-B9AC-47943D4A2544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1F8552D-782A-4E49-ADD2-9AC0DAACDB27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1F8552D-782A-4E49-ADD2-9AC0DAACDB27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1F8552D-782A-4E49-ADD2-9AC0DAACDB27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1F8552D-782A-4E49-ADD2-9AC0DAACDB27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BDF3C45-608F-468A-B053-93ED50E4504D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BDF3C45-608F-468A-B053-93ED50E4504D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BDF3C45-608F-468A-B053-93ED50E4504D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BDF3C45-608F-468A-B053-93ED50E4504D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E38A591-DCA2-4B94-AFDF-CEE456FE5AD0}
+	EndGlobalSection
+EndGlobal
