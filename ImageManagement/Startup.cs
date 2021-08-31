@@ -13,7 +13,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Azure.Storage.Blobs;
 using Burkhart.ImageManagement.Core.Models;
-using Burkhart.Utilities.DotNetCore.Data;
 using Burkhart.ImageManagement.Core.Services;
 
 namespace Burkhart.ImageManagement.Api
